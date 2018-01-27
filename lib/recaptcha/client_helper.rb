@@ -82,7 +82,7 @@ module Recaptcha
       end
 
       # Append whatever that's left of options to be attributes on the tag.
-      tag_attributes = attributes.merge(options).map { |k, v| %(#{k}="#{v}") }.join(" ")
+      tag_attributes = attributes.merge(options).map { |k, v| %(#{k}='#{v}') }.join(" ")
 
       [html, tag_attributes, fallback_uri]
     end
