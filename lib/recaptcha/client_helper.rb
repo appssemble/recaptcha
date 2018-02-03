@@ -32,6 +32,7 @@ module Recaptcha
               <div style="width: 300px; height: 60px; border-style: none;
                 bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px;
                 background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px;">
+                <label for="g-recaptcha-response" style="position: absolute; height: 1px; width: 1px; clip: rect(1px 1px 1px 1px); clip: rect(1px,1px,1px,1px); clip-path: polygon(0px 0px, 0px 0px, 0px 0px); -webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px); overflow: hidden !important;">Recaptcha response</label>
                 <textarea id="g-recaptcha-response" name="g-recaptcha-response"
                   class="g-recaptcha-response"
                   style="width: 250px; height: 40px; border: 1px solid #c1c1c1;
